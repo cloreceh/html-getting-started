@@ -1,4 +1,53 @@
 /* Add screen styles below */
-a.active {
-    font-weight: bold;
+body{
+    background: #5F4B66;
+    margin-top: 50px;
+}
+
+.card {
+    background: #F2EFEF;
+    color: #2C1320;
+    margin: 0 auto;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    font-family: "Instrument Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+}
+
+.card div {
+    padding: 20px;
+}
+
+.card ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.card li {
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+h2{
+    text-align: center;
+    padding-top: 0px;
+}
+
+h1{
+    background: #56667A;
+    color: #ffffff;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+img {
+    float: left;
+    margin-right: 20px;
 }
